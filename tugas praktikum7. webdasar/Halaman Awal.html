@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<div lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Awal </title>
+    <style>
+       *{ 
+            margin : 0%;
+            padding: 0;
+            box-sizing : border-box;
+            
+        }
+        .kotaksatu{ 
+            display: flex;
+            width : 100%;
+            height :100px;
+            background-color:rgb(5, 5, 234);
+        }  
+        .textawal{
+            
+            flex-direction: row;
+            margin-top: 30px;
+            margin-left: 20px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            
+        }
+        
+        .textsatu{ 
+            color: black;
+            text-align: 40px;
+            flex-direction: row;
+            margin-top: 40px;
+            font-size: 30px;
+            margin-left: 20px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            font-size: 20;
+            font-style: oblique;
+            
+
+        }
+       
+        .pembungkus_sebelah {
+            background-image: url(background.png);
+            justify-content: left;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 1000px;
+            
+        }        
+        .kotakkedua{ 
+            float: left;
+            width: 100%;
+            padding: 100px;
+            height: 100%;
+            width: 100%; 
+            margin-left: 20%;
+           
+            font-size: 40px;
+            font-weight: 20;
+            
+        }
+        .kotakketiga{ 
+            float: left;
+            width: 750%;
+            padding: 40px;
+            height: 100px; 
+            margin-left: 10px;
+            margin-right:20px ;
+            font-size: 40px;
+            font-weight: 20;
+            
+        }
+       
+        .textkedua{ 
+            color: greenyellow;
+            text-align: center;
+            flex-direction: row;
+            margin-top: 60px;
+            margin-left: 10px;
+            margin-right: 5px;
+            margin-bottom: 40px;
+            font-size: 80px;            
+
+        } 
+        .text_tambahan {
+            color: aliceblue;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="row"></div>
+    <div class = "kotaksatu">
+        <h1 class = "textawal">
+            <a class="textsatu"><img src="garuda2.png" width = "80px" height ="60px"  margin-left ="10px"></a>
+        </h1>
+        <h2 class="textsatu">      
+            <nav> 
+            <a class= "textsatu" style="color: aliceblue;">Muchlis </a> 
+            <a href="profil.html"class= "textsatu" style="color: aliceblue;"> Profile</a>
+            <a href = "Achievement.html"class= "textsatu" style="color: aliceblue;">Achievement</a>
+            <a href="contact.html" class="textsatu" style="color: aliceblue;">Contact</a>
+            </nav>
+        </h2>
+    </div>
+      
+   
+    <div class = "pembungkus_sebelah">
+        <div class = "kotakketiga" style ="color: aliceblue;">
+            <h5 style="color:aliceblue">Contact Form</h5>
+            <form class= "kotakketiga" id="contactForm">
+                       <label for="name">Name:</label>
+                       <input type="text" id="name" name="name" required>
+                       <br><br>
+                       <label for="email">Email:</label>
+                       <input type="email" id="email" name="email" required>
+                       <br><br>
+                       <button type="submit">Submit</button>
+                   </form>
+               </main>
+               <script src="script.js"></script>       
+        </div><a class=" kotakkedua"><img src="hero-img.png" width = "400px" height ="400px"  margin-left ="0"></a>
+        <div style="color:aliceblue">
+            
+           
+        </div>
+    </div>        
+   
+        
+    
+   
+    
+</body>
+</html>
